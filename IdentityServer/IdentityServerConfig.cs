@@ -62,6 +62,17 @@ public static class IdentityServerConfig
         };
     }
 
+    public static IEnumerable<ApiResource> GetApiResources()
+    {
+        return new List<ApiResource>
+        {
+            new ApiResource("api1", "My API")
+            {
+                Scopes = { "api1" }
+            }
+        };
+    }
+
     public static IEnumerable<IdentityResource> GetIdentityResources()
     {
         return new List<IdentityResource>
