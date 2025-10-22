@@ -13,7 +13,7 @@ var tokenRequest = new Dictionary<string, string>
     ["grant_type"] = "client_credentials",
     ["client_id"] = "machine-client",
     ["client_secret"] = "machine-secret",
-    ["scope"] = "api12"
+    ["scope"] = "api1"
 };
 
 var requestContent = new FormUrlEncodedContent(tokenRequest);
@@ -37,6 +37,7 @@ try
         Console.WriteLine($"Token Type: {tokenType}");
         Console.WriteLine($"Expires In: {expiresIn} seconds");
         Console.WriteLine($"Access Token: {accessToken?[..50]}...\n");
+        Console.WriteLine($"Access Token: {accessToken}\n");
         
         Console.WriteLine("🎉 Machine-to-machine authentication successful!");
     }
