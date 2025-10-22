@@ -1,4 +1,5 @@
 using Duende.IdentityServer.Models;
+using Duende.IdentityServer.Test;
 
 public static class IdentityServerConfig
 {
@@ -71,17 +72,17 @@ public static class IdentityServerConfig
         };
     }
 
-    public static List<Duende.IdentityServer.Test.TestUser> GetTestUsers()
+    public static List<TestUser> GetTestUsers()
     {
-        return new List<Duende.IdentityServer.Test.TestUser>
+        return new List<TestUser>
         {
-            new Duende.IdentityServer.Test.TestUser
+            new TestUser
             {
                 SubjectId = "1",
                 Username = "alice",
                 Password = "password"
             },
-            new Duende.IdentityServer.Test.TestUser
+            new TestUser
             {
                 SubjectId = "2",
                 Username = "bob",
