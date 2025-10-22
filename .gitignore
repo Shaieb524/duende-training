@@ -41,3 +41,7 @@ _ReSharper*/
 
 # Local secrets
 secrets.json
+
+
+keys/
+tempkey.jwk
