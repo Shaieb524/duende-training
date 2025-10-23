@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachineClient", "MachineCli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtectedApi", "ProtectedApi\ProtectedApi.csproj", "{AD729753-88E3-4AFF-AAA7-BBCEBC567521}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "WebClient\WebClient.csproj", "{80B31D69-868C-4C14-A16F-FB1CB0C03BC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{AD729753-88E3-4AFF-AAA7-BBCEBC567521}.Release|x64.Build.0 = Release|Any CPU
 		{AD729753-88E3-4AFF-AAA7-BBCEBC567521}.Release|x86.ActiveCfg = Release|Any CPU
 		{AD729753-88E3-4AFF-AAA7-BBCEBC567521}.Release|x86.Build.0 = Release|Any CPU
+		{80B31D69-868C-4C14-A16F-FB1CB0C03BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B31D69-868C-4C14-A16F-FB1CB0C03BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B31D69-868C-4C14-A16F-FB1CB0C03BC0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{80B31D69-868C-4C14-A16F-FB1CB0C03BC0}.Debug|x64.Build.0 = Debug|Any CPU
+		{80B31D69-868C-4C14-A16F-FB1CB0C03BC0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{80B31D69-868C-4C14-A16F-FB1CB0C03BC0}.Debug|x86.Build.0 = Debug|Any CPU
+		{80B31D69-868C-4C14-A16F-FB1CB0C03BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B31D69-868C-4C14-A16F-FB1CB0C03BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80B31D69-868C-4C14-A16F-FB1CB0C03BC0}.Release|x64.ActiveCfg = Release|Any CPU
+		{80B31D69-868C-4C14-A16F-FB1CB0C03BC0}.Release|x64.Build.0 = Release|Any CPU
+		{80B31D69-868C-4C14-A16F-FB1CB0C03BC0}.Release|x86.ActiveCfg = Release|Any CPU
+		{80B31D69-868C-4C14-A16F-FB1CB0C03BC0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
